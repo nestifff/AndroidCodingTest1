@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/listFragment"
+    app:startDestination="@id/tempFragment"
     android:id="@+id/nav_graph">
 
     <fragment
@@ -28,5 +28,11 @@
             app:argType="com.example.androidcodingtest1.app.list.model.ListItem" />
 
     </fragment>
+
+    <fragment
+        android:id="@+id/tempFragment"
+        android:name="com.example.androidcodingtest1.app.temp.TempFragment"
+        android:label="temp"
+        tools:layout="@layout/fragment_temp" />
 
 </navigation>
